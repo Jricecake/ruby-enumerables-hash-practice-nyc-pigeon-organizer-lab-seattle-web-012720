@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     value.each do |stats, names|
       names.each do |name|
         if final_pigeon_list[name] == nil
-          final_pigeon_list[name] = 1
+          final_pigeon_list[name] = {}
   end
   # write your code here!
   binding.pry
