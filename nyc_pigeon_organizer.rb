@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
 #Gather Pigeon names out of given array
   data.each do |attributes, value|
     value.each do |stats, names|
-      names.each do
-        if final_pigeon_list[:name] == nil
+      names.each do |name|
+        if final_pigeon_list[name] == nil
           final_pigeon_list[name] = 1
   end
   # write your code here!
