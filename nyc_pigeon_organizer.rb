@@ -3,7 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   final_pigeon_list = {}
 #Gather Pigeon names out of given array
-  pigeon_names = data.map { |x| }
+  pigeon_names = data. { |x| }
   # write your code here!
   binding.pry
 end
