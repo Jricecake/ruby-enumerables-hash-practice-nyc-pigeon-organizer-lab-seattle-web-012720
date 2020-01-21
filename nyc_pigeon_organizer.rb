@@ -3,7 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   final_pigeon_list = {}
 #Gather Pigeon names out of given array
-  pigeon_names = data.reduce({}) do |word|
+  pigeon_names = data.reduce({}) do |result, element|
     if word
   # write your code here!
   binding.pry
