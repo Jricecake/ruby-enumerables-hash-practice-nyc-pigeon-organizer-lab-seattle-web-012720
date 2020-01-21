@@ -3,7 +3,8 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   final_pigeon_list = {}
 #Gather Pigeon names out of given array
-  data.each { |x, value|
+  data.each do |attributes, value|
+    value.each do |
   end
   # write your code here!
   binding.pry
