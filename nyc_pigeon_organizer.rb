@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         end
         if final_pigeon_list[attributes] == nil
           final_pigeon_list[attributes] = []
+        end
       end
     end
   end
