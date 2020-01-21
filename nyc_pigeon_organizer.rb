@@ -9,6 +9,8 @@ def nyc_pigeon_organizer(data)
         if final_pigeon_list[name] == nil
           final_pigeon_list[name] = {}
         end
+        if final_pigeon_list[attributes] == nil
+          final_pigeon_list[attributes] =
       end
     end
   end
