@@ -3,17 +3,19 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   final_pigeon_list = {}
 #Gather Pigeon names out of given array
+  pigeon_names = data.map { |x| }
   # write your code here!
+  binding.pry
 end
 
 
-pigeon_list = {
-  "Theo" => {
-    :color => ["purple", "grey"],
-    :gender => ["male"],
-    :lives => ["Subway"]
-  },
-  "Peter Jr." => {
-    :color => ["purple", "grey"],
-    :gender => ["male"],
-    :lives => ["Library"]
+#pigeon_list = {
+#  "Theo" => {
+#    :color => ["purple", "grey"],
+#    :gender => ["male"],
+#    :lives => ["Subway"]
+#  },
+#  "Peter Jr." => {
+#    :color => ["purple", "grey"],
+#    :gender => ["male"],
+#    :lives => ["Library"]#
