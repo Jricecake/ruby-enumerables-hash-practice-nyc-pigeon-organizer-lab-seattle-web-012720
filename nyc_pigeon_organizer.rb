@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
         if final_pigeon_list[name][attributes] == nil
           final_pigeon_list[name][attributes] = []
         end
+        final_pigeon_list[name][attributes].push(stats).to_s
       end
     end
   end
