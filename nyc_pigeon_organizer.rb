@@ -8,8 +8,10 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         if final_pigeon_list[name] == nil
           final_pigeon_list[name] = {}
+        end
+      end
+    end
   end
-end
 
   # write your code here!
   binding.pry
